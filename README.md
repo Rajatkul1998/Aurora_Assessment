@@ -1,6 +1,6 @@
 # Aurora_Assessment
 
-# RAG QA System with FastAPI and Streamlit
+# RAG QA System with FastAPI
 
 This project implements a Retrieval-Augmented Generation (RAG) system using FastAPI as the backend. The system fetches messages from an API, converts them into vector embeddings, and allows users to query the data to get AI-generated answers.
 
