@@ -21,7 +21,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system using Fast
 
 1. Run the FastAPI backend:
     ```bash
-    uvicorn main:app --reload --port 9000
+    uvicorn main:app --reload 
     ```
 2. Enter a query in the URL and get AI-generated answers.
 
