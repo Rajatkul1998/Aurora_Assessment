@@ -7,7 +7,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system using Fast
 ## Project Overview
 
 - Initially, the approach was to use **TF-IDF vector search** to find relevant messages from the dataset. This worked for basic keyword matching but lacked the ability to generate natural, conversational answers.  
-- To improve the user experience and create a more **question-and-answer feel**, we shifted to using an **open-source LLM** with embeddings stored in a **FAISS vector database**.  
+- To improve the user experience and create a more **question-and-answer feel**, I shifted to using an **open-source LLM** with embeddings stored in a **FAISS vector database**.  
 - The system now combines **vector search** for context retrieval with an **LLM** to generate coherent, human-like answers based on the most relevant messages.
 
 ## Features
